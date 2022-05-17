@@ -1,3 +1,18 @@
+.hidden {
+  position: absolute;
+  left: -999px;
+ 
+}
+.hidden:focus {
+  color: rgb(2, 1, 1);
+  background-color: gray;
+  display: block;
+  left: 0px;
+  height: auto;
+  width: auto;
+  position: static;
+  margin: auto;
+}
 body {
   font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
     Helvetica, Arial, 'Lucida Grande', sans-serif;
